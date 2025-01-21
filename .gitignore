@@ -1,0 +1,43 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Ignore logs and reports
+logs/
+*.log
+reports/
+test_report.html
+
+# Ignore Selenium WebDriver downloads
+chromedriver*
+geckodriver*
+
+# Ignore pytest cache and metadata
+.pytest_cache/
+*.pytest_cache/
+
+# Ignore build and dependency artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore configuration files (optional)
+config.json
+*.config
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
